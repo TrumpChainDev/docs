@@ -4,21 +4,21 @@
 
 **Discord**: [https://discord.com/invite/](https://discord.com/invite/)&#x20;
 
-**Eram Forum**: [https://forum.eramscan.com/](https://forum.eramscan.com/)
+**TrumpChain Forum**: [https://forum.trumpchain.io/](https://forum.trumpchain.io/)
 
 ### Public Telegram groups
 
 **Main chat**: [https://t.me/](https://t.me/)
 
-<!-- **Eram announcements group**: [https://t.me/FuseAnnouncements](https://t.me/FuseAnnouncements) -->
+<!-- **TrumpChain announcements group**: [https://t.me/FuseAnnouncements](https://t.me/FuseAnnouncements) -->
 
-<!-- **Eram Cash group**: [https://t.me/fusecash](https://t.me/fusecash) -->
+<!-- **TrumpChain Cash group**: [https://t.me/fusecash](https://t.me/fusecash) -->
 
 <!-- **TLChainSwap group**: [https://t.me/fuseswap](https://t.me/fuseswap) -->
 
-<!-- **Eram NFTs**: [https://t.me/fuseNFTs](https://t.me/fuseNFTs)&#x20; -->
+<!-- **TrumpChain NFTs**: [https://t.me/fuseNFTs](https://t.me/fuseNFTs)&#x20; -->
 
-**Italian Eram Telegram community:** [https://t.me/](https://t.me/)
+**Italian TrumpChain Telegram community:** [https://t.me/](https://t.me/)
 
-**Indonesian Eram Telegram community:** [https://t.me/](https://t.me/)
+**Indonesian TrumpChain Telegram community:** [https://t.me/](https://t.me/)
 

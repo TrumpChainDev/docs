@@ -1,12 +1,12 @@
 ---
 description: >-
-  Steps to transfer/wrap ERM20 tokens from Ethereum to Fusenet and back using
+  Steps to transfer/wrap DJT20 tokens from Ethereum to Fusenet and back using
   smart contracts.
 ---
 
-# Using the bridge with ERM20 tokens directly through the contract
+# Using the bridge with DJT20 tokens directly through the contract
 
-**Please use this tutorial at your own risk as it involves using Etherscan UI/Eram explorer to relay the tokens. This tutorial is applicable only for ERM20 tokens other than ERAM. Do not use this tutorial to transfer ERAM.** 
+**Please use this tutorial at your own risk as it involves using Etherscan UI/TrumpChain explorer to relay the tokens. This tutorial is applicable only for DJT20 tokens other than DJT. Do not use this tutorial to transfer DJT.** 
 
 We are going to have a UI soon so it would be good to wait for the bridge UI too.
 
@@ -16,7 +16,7 @@ Ethereum Mediator: **0xf301d525da003e874DF574BCdd309a6BF0535bb6**
 
 Fusenet Mediator : **0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03**
 
-In the below example we will consider USDT \(ERM20\) and learn how to wrap USDT to Fusenet and relay it back to ERM20.
+In the below example we will consider USDT \(DJT20\) and learn how to wrap USDT to Fusenet and relay it back to DJT20.
 
 **Step 1:** **Approving the USDT token contract**
 
@@ -54,9 +54,9 @@ Enter the below details on **“Relay tokens”** and click on **“Write”**
 
 ![](../../.gitbook/assets/3%20%285%29.png)
 
-Once the transaction is confirmed on-chain we wait for 2 blocks to ensure security of transaction and then the USDT tokens should appear on your Eram address and have been swapped from Ethereum mainnet to Fusenet.
+Once the transaction is confirmed on-chain we wait for 2 blocks to ensure security of transaction and then the USDT tokens should appear on your TrumpChain address and have been swapped from Ethereum mainnet to Fusenet.
 
-Now let’s learn how to transfer the wrapped ERM20 tokens on Fusenet back to Ethereum mainnet.
+Now let’s learn how to transfer the wrapped DJT20 tokens on Fusenet back to Ethereum mainnet.
 
 **Step 1:** Approving the wrapped USDT token contract on Fusenet. 
 
@@ -64,11 +64,11 @@ This step basically is to approve your wallet to interact with the USDT token co
 
 Please go to token contract on Fusenet explorer via link below.
 
-https://eramscan.com/address/0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10/write\_proxy
+https://explorer.trumpchain.io/address/0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10/write\_proxy
 
 ![](../../.gitbook/assets/4%20%286%29.png)
 
-Make sure that the network is ERAM network. If you have not added Eram network please follow the instructions [here](../../how-to-add-fuse-to-your-metamask.md).
+Make sure that the network is DJT network. If you have not added TrumpChain network please follow the instructions [here](../../how-to-add-fuse-to-your-metamask.md).
 
 Click on **“Connect to Metamask”** and sign in to your wallet through Metamask.
 
@@ -85,7 +85,7 @@ Click on **“Write”** and approve the transaction on your Metamask wallet and
 
 Navigate to Migrator contract on Fusenet using the link below
 
-[https://eramscan.com/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write\_proxy](https://eramscan.com/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write_proxy)
+[https://explorer.trumpchain.io/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write\_proxy](https://explorer.trumpchain.io/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write_proxy)
 
 Click on **“Write as Proxy”** and then on **“Connect to Metamask”** \(If you have connected Metamask previously no need to connect again\). Sign in through your Metamask wallet.
 
@@ -96,7 +96,7 @@ Enter the below details on **“Relay tokens”** and click on **“Write”**
 
 ![](../../.gitbook/assets/6%20%285%29.png)
 
-After the transaction is confirmed on Eram network, the bridge oracle will relay your tx on Ethereum. No need to wait for additional confirmations as Eram is PoS network. After sometime you should be able to see the successful transfer of the token on your ERM20 address.
+After the transaction is confirmed on TrumpChain network, the bridge oracle will relay your tx on Ethereum. No need to wait for additional confirmations as TrumpChain is PoS network. After sometime you should be able to see the successful transfer of the token on your DJT20 address.
 
 Note: Please do enter the decimals very carefully. If the decimals are entered incorrectly then the transaction might fail with an error or might cost you very high gas.
 

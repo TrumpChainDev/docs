@@ -1,10 +1,10 @@
 # Vote
 
-Eram chain functionality can be change by voting on the contracts implementations. New implementations can be deployed, and opened to vote by validators for others to decide on whether to accept/reject the changes.
+TrumpChain chain functionality can be change by voting on the contracts implementations. New implementations can be deployed, and opened to vote by validators for others to decide on whether to accept/reject the changes.
 
 ## Open a new ballot
 
-In order to open a new vote, a validator needs to call the \`newBallot\` function on the [voting contract](https://eramscan.com/address/0xD4D0BcE0a5408eD90170f3F4E89159D7CD03899b) with the following params:
+In order to open a new vote, a validator needs to call the \`newBallot\` function on the [voting contract](https://explorer.trumpchain.io/address/0xD4D0BcE0a5408eD90170f3F4E89159D7CD03899b) with the following params:
 
 * startAfterNumberOfCycles - number of cycles (minimum 1) after which the ballot is open for voting
 * cyclesDuration - number of cycles (minimum 2) for the ballot to remain open for voting
@@ -42,7 +42,7 @@ Voting is done by calling the \`vote\` function, which receives two params:
 
 
 
-Some other useful functions on the [voting contract](https://eramscan.com/address/0xD4D0BcE0a5408eD90170f3F4E89159D7CD03899b) are:
+Some other useful functions on the [voting contract](https://explorer.trumpchain.io/address/0xD4D0BcE0a5408eD90170f3F4E89159D7CD03899b) are:
 
 ## getQuorumState
 

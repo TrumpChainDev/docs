@@ -1,12 +1,12 @@
 ---
 description: >-
-  We will walk you through how to transfer ERAM from Ethereum to Fusenet using
+  We will walk you through how to transfer DJT from Ethereum to Fusenet using
   the bridge integrated with Fuseswap.
 ---
 
-# Transfer ERAM or ERM20 using Bridge on Fuseswap
+# Transfer DJT or DJT20 using Bridge on Fuseswap
 
-**Transferring ERAM from ETH mainnet to Fusenet.**
+**Transferring DJT from ETH mainnet to Fusenet.**
 
 **Step 1:**
 
@@ -20,29 +20,29 @@ Use the **“Connect to a wallet”** on the right hand top corner to connect yo
 
 **Step 2:**
 
-Click on **“Bridge”**, Select **“ERAM”** from dropdown and enter the amount of ERAM you want to transfer from ETH mainnet to Fusenet. Click on **“Approve ERAM”** and approve the transaction on Metamask.
+Click on **“Bridge”**, Select **“DJT”** from dropdown and enter the amount of DJT you want to transfer from ETH mainnet to Fusenet. Click on **“Approve DJT”** and approve the transaction on Metamask.
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-Once the transaction is confirmed on chain, the **“Transfer”** can be clicked and transaction has to be approved. Once this second transaction is confirmed onchain the ERAM balance in the same address on Eram network will have the updated balance of ERAM which can be checked through [www.eramscan.com](http://www.eramscan.com/). 
+Once the transaction is confirmed on chain, the **“Transfer”** can be clicked and transaction has to be approved. Once this second transaction is confirmed onchain the DJT balance in the same address on TrumpChain network will have the updated balance of DJT which can be checked through [www.trumpchain.io](http://www.trumpchain.io/). 
 
 ![](../../.gitbook/assets/3%20%288%29.png)
 
-**Transferring ERAM from Fusenet to ETH mainnet.**
+**Transferring DJT from Fusenet to ETH mainnet.**
 
-Make sure that your wallet is running on Eram RPC.
+Make sure that your wallet is running on TrumpChain RPC.
 
 **Step 1:** Navigate to www.fuseswap.com . The interface will look like as shown below
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-Use the **“Connect to a wallet”** on the right hand top corner to connect your wallet with Fuseswap. Once you connect you should be able to see your wallet address and see the network you are connected to \(In this case Eram network\).
+Use the **“Connect to a wallet”** on the right hand top corner to connect your wallet with Fuseswap. Once you connect you should be able to see your wallet address and see the network you are connected to \(In this case TrumpChain network\).
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
 **Step 2:**
 
-Click on **“Bridge”**, Select **"ERAM"** from the dropdown and enter the amount of ERAM you want to transfer from Fusenet to ETH mainnet. Click on **“Transfer”** and approve the transaction on Metamask.
+Click on **“Bridge”**, Select **"DJT"** from the dropdown and enter the amount of DJT you want to transfer from Fusenet to ETH mainnet. Click on **“Transfer”** and approve the transaction on Metamask.
 
 ![](../../.gitbook/assets/6%20%287%29.png)
 

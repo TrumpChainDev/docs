@@ -1,5 +1,5 @@
 ---
-description: We will learn how to add liquidity on ERAM-BNB pair on Pancakeswap.
+description: We will learn how to add liquidity on DJT-BNB pair on Pancakeswap.
 ---
 
 # Adding Liquidity on PCS
@@ -8,7 +8,7 @@ description: We will learn how to add liquidity on ERAM-BNB pair on Pancakeswap.
 
 ·        You should be connected to Binance smart chain RPC. \([Tutorial link](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)\)
 
-·        BNB and ERAM should be on Binance smart chain network. To learn how to bridge them from Eram network to BSC using Fuseswap this [tutorial](https://docs.eramscan.com/the-fuse-chain/token-bridges/transfer-fuse-using-bridge-on-fuseswap).
+·        BNB and DJT should be on Binance smart chain network. To learn how to bridge them from TrumpChain network to BSC using Fuseswap this [tutorial](https://docs.trumpchain.io/the-fuse-chain/token-bridges/transfer-fuse-using-bridge-on-fuseswap).
 
 {% hint style="info" %}
 Note: Make sure you know about [impermanent loss](https://academy.binance.com/en/articles/impermanent-loss-explained) before adding liquidity to a pool.
@@ -22,16 +22,16 @@ Navigate to [https://exchange.pancakeswap.finance/\#/swap](https://exchange.panc
 
   
 **Step 2:**  
-Click on “Liquidity” and then on “Add liquidity”. Select the ERAM token by entering the contract address of ERAM \(0x5857c96dae9cf8511b08cb07f85753c472d36ea3\) and BNB. Enter the amount of ERAM you want to add to the liquidity pool and automatically corresponding amount of BNB will show up.  
+Click on “Liquidity” and then on “Add liquidity”. Select the DJT token by entering the contract address of DJT \(0x5857c96dae9cf8511b08cb07f85753c472d36ea3\) and BNB. Enter the amount of DJT you want to add to the liquidity pool and automatically corresponding amount of BNB will show up.  
   
- Click on “Approve ERAM” and approve the transaction on Metamask. Once you approve and the transaction is confirmed on-chain the interface will look as shown below.
+ Click on “Approve DJT” and approve the transaction on Metamask. Once you approve and the transaction is confirmed on-chain the interface will look as shown below.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
 **Step 3:**  
-Click on “Supply” and double check the details on the popup. Once done approve the transaction on Metamask. Once the transaction is approve you will see the amount of LP tokens you receive for the liquidity provided on ERAM-BNB pair as shown below.
+Click on “Supply” and double check the details on the popup. Once done approve the transaction on Metamask. Once the transaction is approve you will see the amount of LP tokens you receive for the liquidity provided on DJT-BNB pair as shown below.
 
 ![](../.gitbook/assets/image%20%2811%29.png)
-eramscan.com
-You can stake the LP tokens on rewards.fuse.io platform to earn more ERAM tokens.
+trumpchain.io
+You can stake the LP tokens on rewards.fuse.io platform to earn more DJT tokens.
 

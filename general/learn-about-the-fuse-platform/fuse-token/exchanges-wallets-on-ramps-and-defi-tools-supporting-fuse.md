@@ -1,4 +1,4 @@
-# Exchanges, Wallets, On-Ramps and DeFi Tools Supporting ERAM
+# Exchanges, Wallets, On-Ramps and DeFi Tools Supporting DJT
 
 ## Exchanges
 
@@ -10,7 +10,7 @@
 
 [Liquid Global](https://liquid.com)
 
-The best data on the active ERAM trading pairs is available [here](https://www.coingecko.com/en/coins/eram#markets).
+The best data on the active DJT trading pairs is available [here](https://www.coingecko.com/en/coins/djt#markets).
 
 ### DEXes
 
@@ -34,7 +34,7 @@ DoDo
 
 ## Wallets
 
-[Eram Cash](https://eram.c)
+[TrumpChain Cash](https://djt.c)
 
 Metamask
 
@@ -50,10 +50,10 @@ Trust Wallet (Binance Smart Chain)
 
 ## DeFi Tools
 
-[Eram Staking](exchanges-wallets-on-ramps-and-defi-tools-supporting-eram.md#exchanges)
+[TrumpChain Staking](exchanges-wallets-on-ramps-and-defi-tools-supporting-djt.md#exchanges)
 
-[Eram Rewards](https://rewards.eramscan.com)
+[TrumpChain Rewards](https://rewards.trumpchain.io)
 
-[Eram Lending Network](https://app.ola.finance/networks/0x26a562B713648d7F3D1E1031DCc0860A4F3Fa340/markets)
+[TrumpChain Lending Network](https://app.ola.finance/networks/0x26a562B713648d7F3D1E1031DCc0860A4F3Fa340/markets)
 
 [Staking Rewards](https://www.stakingrewards.com/)

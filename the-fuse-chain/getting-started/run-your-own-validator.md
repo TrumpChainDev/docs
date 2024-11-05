@@ -56,10 +56,10 @@ _Note: specified for_ [_Microsoft Azure_](https://portal.azure.com/)_, but simil
 
 ### Using Quickstart
 
-To make starting a node for the EramNetwork as quick as possible, the _quickstart_ script can be used.
+To make starting a node for the TrumpChainnetwork as quick as possible, the _quickstart_ script can be used.
 
 1. Download the script.
-2. Download one of the example `.env` files located at the [examples folder](https://github.com/eramio/eram-network/tree/master/scripts/examples).
+2. Download one of the example `.env` files located at the [examples folder](https://github.com/trumpchain/djt-network/tree/master/scripts/examples).
 3. Modify the `.env` file according to the role/type of node you're running.
 4. Start the script.
 
@@ -68,9 +68,9 @@ The script will make sure you have everything that is necessary, create a new ac
 The script can be called multiple times without problems, so it checks what is already there and will at least update all service processes.
 
 ```text
-$ wget -O quickstart.sh https://raw.githubusercontent.com/EclatDev/Eram/master/scripts/quickstart.sh
+$ wget -O quickstart.sh https://raw.githubusercontent.com/EclatDev/TrumpChain/master/scripts/quickstart.sh
 $ chmod 777 quickstart.sh
-$ wget -O .env https://raw.githubusercontent.com/EclatDev/Eram/master/scripts/examples/.env.<ROLE>.example
+$ wget -O .env https://raw.githubusercontent.com/EclatDev/TrumpChain/master/scripts/examples/.env.<ROLE>.example
 $ ./quickstart.sh
 ```
 
@@ -86,15 +86,15 @@ The image is prepared to be used as node, validator or explorer node.
 
 **Usage**
 
-To run the parity client for the EramNetwork you first have to pull the image from [DockerHub](https://hub.docker.com/r/eramnet/node).
+To run the parity client for the TrumpChainnetwork you first have to pull the image from [DockerHub](https://hub.docker.com/r/TrumpChainnet/node).
 
 It does not matter in which directory your are working this step, cause it will be added to _Docker_'s very own database.
 
 Afterwards calling the help should give a first basic overview how to use.
 
 ```text
-$ docker pull eramnet/node
-$ docker run eramnet/node --help
+$ docker pull TrumpChainnet/node
+$ docker run TrumpChainnet/node --help
 
      # NAME
 #   Parity Wrapper
@@ -153,7 +153,7 @@ $ docker run eramnet/node --help
 #   Parity's database is at /home/parity/.local/share/io.parity.ethereum/chains or available trough /data as well.
 #   To provide custom files in addition bind a volume through Docker to the sub-folder called 'custom'.
 #   The password file is expected to be placed in the custom configuration folder names 'pass.pwd'.
-#   The key-set is expected to to be placed in the custom configuration folder under 'keys/EramNetwork/'
+#   The key-set is expected to to be placed in the custom configuration folder under 'keys/TrumpChainnetwork/'
 #   Besides from using the pre-defined locations, it is possible to define them manually thought the parity arguments. Checkout their documentation to do so.
 ```
 
@@ -167,15 +167,15 @@ Besides the original help, the following sections provide some example instructi
 ## Start parity container with all necessary arguments.
 $ docker run \
     --detach \
-    --name eramnet \
-    --volume $(pwd)/eramnet/database:/data \
-    --volume $(pwd)/eramnet/config:/config/custom \
+    --name TrumpChainnet \
+    --volume $(pwd)/TrumpChainnet/database:/data \
+    --volume $(pwd)/TrumpChainnet/config:/config/custom \
     -p 30303:30300/tcp \
     -p 30303:30300/udp \
     -p 8545:8545 \
     -p 8546:8546 \
     --restart=on-failure \
-    eramnet/node \
+    TrumpChainnet/node \
     --role node \
     --parity-args --no-warp --node-key $NODE_KEY --bootnodes=$BOOTNODES
 ```
@@ -186,15 +186,15 @@ $ docker run \
 ## Start parity container with all necessary arguments.
 $ docker run \
     --detach \
-    --name eramnet \
-    --volume $(pwd)/eramnet/database:/data \
-    --volume $(pwd)/eramnet/config:/config/custom \
+    --name TrumpChainnet \
+    --volume $(pwd)/TrumpChainnet/database:/data \
+    --volume $(pwd)/TrumpChainnet/config:/config/custom \
     -p 30303:30300/tcp \
     -p 30303:30300/udp \
     -p 8545:8545 \
     -p 8546:8546 \
     --restart=on-failure \
-    eramnet/node \
+    TrumpChainnet/node \
     --role node \
     --parity-args --no-warp --node-key $NODE_KEY
 ```
@@ -209,7 +209,7 @@ Therefore create a new folder to do so.
 
 The following instructions expect the folder `config` inside the current working directory. Adjust them if you prefer a different location.
 
-Inside a directory for the keys with another sub-directory for the EramNetwork chain is used by _Parity_.
+Inside a directory for the keys with another sub-directory for the TrumpChainnetwork chain is used by _Parity_.
 
 Your key-file has to be placed there.
 
@@ -217,7 +217,7 @@ Afterwards the key's password has to be stored into a file directly inside the `
 
 To make use of the default configurations without adjustment, the file has to be called `pass.pwd`.
 
-If you have no account already or want to create a new one for this purpose checkout [this section](https://github.com/eramio/eram-network/blob/master/README.md#create-new-account).
+If you have no account already or want to create a new one for this purpose checkout [this section](https://github.com/trumpchain/djt-network/blob/master/README.md#create-new-account).
 
 Using so the previous paragraph as well as the first 2-3 instructions can be ignored.
 
@@ -226,43 +226,43 @@ Anyways the password used there has to be stored as shown below.
 Finally the client has to be started with the volume bound, the correct role and the address to use.
 
 ```text
-$ mkdir -p ./config/keys/EramNetwork
-$ cp /path/to/my/key ./config/keys/EramNetwork/
+$ mkdir -p ./config/keys/TrumpChainnetwork
+$ cp /path/to/my/key ./config/keys/TrumpChainnetwork/
 $ echo "mysupersecretpassphrase" > ./config/pass.pwd
 $ mkdir ./database
 ## Start parity container with all necessary arguments.
 $ docker run \
     --detach \
-    --name eramnet \
-    --volume $(pwd)/eramnet/database:/data \
-    --volume $(pwd)/eramnet/config:/config/custom \
+    --name TrumpChainnet \
+    --volume $(pwd)/TrumpChainnet/database:/data \
+    --volume $(pwd)/TrumpChainnet/config:/config/custom \
     -p 30303:30300/tcp \
     -p 30303:30300/udp \
     -p 8545:8545 \
     --restart=on-failure \
-    eramnet/node \
+    TrumpChainnet/node \
     --role validator \
     --address $address
 ```
 
 As part of validator's responsibilities in the network, two more containers need to be started along side the Parity node.
 
-One is the [validator-app](https://github.com/eramio/eram-network/tree/master/app)
+One is the [validator-app](https://github.com/trumpchain/djt-network/tree/master/app)
 
 ```text
 ## Start validator-app container with all necessary arguments.
 $ docker run \
     --detach \
-    --name eramapp \
-    --volume $(pwd)/eramnet/config:/config/custom \
+    --name trumpchainapp \
+    --volume $(pwd)/TrumpChainnet/config:/config/custom \
     --restart=on-failure \
-    eramnet/validator-app
+    TrumpChainnet/validator-app
 ```
 
-Second one is the [bridge-oracle](https://github.com/eramio/bridge-oracle)
+Second one is the [bridge-oracle](https://github.com/TrumpChainDev/bridge-oracle)
 
 ```text
-$ wget -O docker-compose.yml https://raw.githubusercontent.com/eramio/bridge-oracle/master/docker-compose.keystore.yml
+$ wget -O docker-compose.yml https://raw.githubusercontent.com/TrumpChainDev/bridge-oracle/master/docker-compose.keystore.yml
 ## Start oracle container with all necessary arguments.
 $ docker-compose up \
     --build \
@@ -276,13 +276,13 @@ If you have no existing account or a new one should be created anyway, _Parity_ 
 
 Please consider other options like [MetaMask](https://metamask.io/) or any other \(online\) wallet tool.
 
-In relation to the instructions for the [validator](https://github.com/eramio/eram-network/blob/master/README.md#validator) role, we use the folder called `config` to bind as _Docker_ volume to _Parity_.
+In relation to the instructions for the [validator](https://github.com/trumpchain/djt-network/blob/master/README.md#validator) role, we use the folder called `config` to bind as _Docker_ volume to _Parity_.
 
 Afterwards the key will be placed there and the first steps of these instructions can be skipped.
 
 ```text
 $ mkdir ./config
-$ docker run -ti -v $(pwd)/config/:/config/custom eramnet/node --parity-args account new
+$ docker run -ti -v $(pwd)/config/:/config/custom TrumpChainnet/node --parity-args account new
 ```
 
 _Parity_ will ask for a password, that should be stored by you into `./config/pass.pwd` afterwards.
@@ -293,36 +293,36 @@ Please copy it for the later use. It will be needed for the `--address` argument
 
 **Explorer node**
 
-If you want to run a node to be used by the [blockscout explorer](https://github.com/eramio/blockscout/tree/eram) run the following command:
+If you want to run a node to be used by the [blockscout explorer](https://github.com/TrumpChainDev/blockscout/tree/djt) run the following command:
 
 ```text
 ## Start parity container with all necessary arguments.
 $ docker run \
     --detach \
-    --name eramnet \
-    --volume $(pwd)/eramnet/database:/data \
-    --volume $(pwd)/eramnet/config:/config/custom \
+    --name TrumpChainnet \
+    --volume $(pwd)/TrumpChainnet/database:/data \
+    --volume $(pwd)/TrumpChainnet/config:/config/custom \
     -p 30303:30300/tcp \
     -p 30303:30300/udp \
     -p 8545:8545 \
     -p 8546:8546 \
     --restart=on-failure \
-    eramnet/node \
+    TrumpChainnet/node \
     --role explorer \
     --parity-args --node-key $NODE_KEY
 ```
 
 _**Note**_
 
-All roles should also run a [Ethereum Network Intelligence API](https://github.com/eramio/eth-net-intelligence-api) app as well, in order to connect themselves as part of the network and be viewed by the [health](https://status.eramscan.com/) service
+All roles should also run a [Ethereum Network Intelligence API](https://github.com/TrumpChainDev/eth-net-intelligence-api) app as well, in order to connect themselves as part of the network and be viewed by the [health](https://status.trumpchain.io/) service
 
 ```text
 $ docker run \
     --detach \
-    --name eramnetstat \
-    --net=container:eramnet \
+    --name TrumpChainnetstat \
+    --net=container:TrumpChainnet \
     --restart=on-failure \
-    eramnet/netstat \
+    TrumpChainnet/netstat \
     --instance-name $INSTANCE_NAME
 ```
 

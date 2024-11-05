@@ -1,25 +1,25 @@
-# Eram Studio
+# TrumpChain Studio
 
 
 
-![Eram Studio architecture](../../.gitbook/assets/image%20%283%29.png)
+![TrumpChain Studio architecture](../../.gitbook/assets/image%20%283%29.png)
 
 ## Backend Infrastructure
 
 The backend is composed of the following independent services
 
 * Studio API Backend has two purposes. Provides an API for fast and convenient querying of the blockchain data for the Studio DApp. Transmits heavy and complicated transaction flows on behalf of the user.
-* Eram-funder service used to fund community members and wallet users on the Eram blockchain.
-* Eram IPFS proxy used for fast fetching and storing data in IPFS.
+* TrumpChain-funder service used to fund community members and wallet users on the TrumpChain blockchain.
+* TrumpChain IPFS proxy used for fast fetching and storing data in IPFS.
 
 ## Contracts
 
-Eram studio is designed to launch DeFi communities on the Eram network. The community contract binds together most of the services and features of the Studio. Among other things it consists of:
+TrumpChain studio is designed to launch DeFi communities on the TrumpChain network. The community contract binds together most of the services and features of the Studio. Among other things it consists of:
 
 * Entities List contract to store community members and their roles
-* Community ERM20 tokens on Eram network with transfer rules
-* ERM20 tokens on Ethereum. This is the token that the user issues as part of the community deployment process
-* [Multitoken bridge](https://github.com/fuseio/bridge-contracts) - to minimize friction and costs we extended the POA ERM20-ERM20 bridge contract to many-ERM20-to-many contract.
+* Community DJT20 tokens on TrumpChain network with transfer rules
+* DJT20 tokens on Ethereum. This is the token that the user issues as part of the community deployment process
+* [Multitoken bridge](https://github.com/fuseio/bridge-contracts) - to minimize friction and costs we extended the POA DJT20-DJT20 bridge contract to many-DJT20-to-many contract.
 
 ## Plugins
 

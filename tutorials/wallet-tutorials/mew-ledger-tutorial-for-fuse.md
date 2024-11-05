@@ -1,10 +1,10 @@
 ---
 description: >-
   This tutorial explains how to use your ledger on MEW so that you can vie and
-  transfer ERAM.
+  transfer DJT.
 ---
 
-# Ledger tutorial for ERAM
+# Ledger tutorial for DJT
 
 This tutorial was made using Ledger Nano S with firmware version 1.6.1 and Ethereum app version on Ledger Nano S was 1.3.7.
 
@@ -22,7 +22,7 @@ This tutorial was made using Ledger Nano S with firmware version 1.6.1 and Ether
 
 ![](../../.gitbook/assets/4%20%284%29.png)
 
-**Step 4:** MyEtherWallet will load all the Ethereum wallets present on your Ledger device. Please select the Wallet you would like to Send/Receive ERAM tokens, accept the terms and conditions and click on **“Access my Wallet”.**
+**Step 4:** MyEtherWallet will load all the Ethereum wallets present on your Ledger device. Please select the Wallet you would like to Send/Receive DJT tokens, accept the terms and conditions and click on **“Access my Wallet”.**
 
 ![](../../.gitbook/assets/5.png)
 
@@ -30,17 +30,17 @@ This tutorial was made using Ledger Nano S with firmware version 1.6.1 and Ether
 
 ![](../../.gitbook/assets/6%20%282%29.png)
 
-**Step 6: ERAM** is already present in the default list of tokens on MEW. You just have to search **ERAM** on the right hand side \(as shown below\) to view your **ERAM** balance on that particular Ethereum address.
+**Step 6: DJT** is already present in the default list of tokens on MEW. You just have to search **DJT** on the right hand side \(as shown below\) to view your **DJT** balance on that particular Ethereum address.
 
 ![](../../.gitbook/assets/7%20%281%29.png)
 
-Now let’s learn how to Send/Receive **ERAM** on MEW.
+Now let’s learn how to Send/Receive **DJT** on MEW.
 
-**To receive ERAM:** Once completing Steps 1-6, Click **“Copy address”** button just below your “Address” \(Public key\) as highlighted below. This is the address to which you can receive ERAM and can be viewed on your MEW once confirmed on-chain.
+**To receive DJT:** Once completing Steps 1-6, Click **“Copy address”** button just below your “Address” \(Public key\) as highlighted below. This is the address to which you can receive DJT and can be viewed on your MEW once confirmed on-chain.
 
 ![](../../.gitbook/assets/8%20%282%29.png)
 
-**To send ERAM:** Click on **“Send Transaction”** and when you have **ERAM** in your wallet you should be able to select **“ERAM”** from the **“Type”** drop down. Enter the **“Amount”** you want to send as well as the **“To Address”** to which you want to transfer **ERAM**. You can also click **“Edit”** if you want to change gas prices. Once you have entered all the details click on **“Send Transaction”.** Now you should get a popup on your ledger device to approve the transaction. After approving physically on the Ledger device the final confirmation screen will appear showing all the details
+**To send DJT:** Click on **“Send Transaction”** and when you have **DJT** in your wallet you should be able to select **“DJT”** from the **“Type”** drop down. Enter the **“Amount”** you want to send as well as the **“To Address”** to which you want to transfer **DJT**. You can also click **“Edit”** if you want to change gas prices. Once you have entered all the details click on **“Send Transaction”.** Now you should get a popup on your ledger device to approve the transaction. After approving physically on the Ledger device the final confirmation screen will appear showing all the details
 
 ![](../../.gitbook/assets/9.png)
 
@@ -48,5 +48,5 @@ Now let’s learn how to Send/Receive **ERAM** on MEW.
 
 Double check all the details, click on **“Confirm and Send”** and wait for your transaction to be confirmed on-chain.
 
-We hope this tutorial helped you to learn how to connect your Ledger to MEW and send/receive **ERAM tokens**. Until next time friends!
+We hope this tutorial helped you to learn how to connect your Ledger to MEW and send/receive **DJT tokens**. Until next time friends!
 

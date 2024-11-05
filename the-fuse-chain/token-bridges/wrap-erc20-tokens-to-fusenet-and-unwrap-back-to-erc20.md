@@ -1,10 +1,10 @@
 ---
-description: Steps to transfer/wrap ERM20 tokens from Ethereum to Eramnet
+description: Steps to transfer/wrap DJT20 tokens from Ethereum to TrumpChainnet
 ---
 
-# Bridge for ERM20 tokens
+# Bridge for DJT20 tokens
 
-Please use this tutorial at your own risk as it involves using Etherscan UI/Eram explorer to relay the tokens.
+Please use this tutorial at your own risk as it involves using Etherscan UI/TrumpChain explorer to relay the tokens.
 
 We are going to have a UI soon so it would be good to wait for the bridge UI too.
 
@@ -12,9 +12,9 @@ Below are the important contract addresses:
 
 Ethereum Mediator: **0xf301d525da003e874DF574BCdd309a6BF0535bb6**
 
-Eramnet Mediator : **0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03**
+TrumpChainnet Mediator : **0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03**
 
-In the below example we will consider USDT \(ERM20\) and learn how to wrap USDT to Eramnet and relay it back to ERM20.
+In the below example we will consider USDT \(DJT20\) and learn how to wrap USDT to TrumpChainnet and relay it back to DJT20.
 
 **Step 1:** **Approving the USDT token contract**
 
@@ -52,27 +52,27 @@ Enter the below details on **“Relay tokens”** and click on **“Write”**
 
 ![](../../.gitbook/assets/3%20%285%29.png)
 
-Once the transaction is confirmed on-chain we wait for 2 blocks to ensure security of transaction and then the USDT tokens should appear on your Eram address and have been swapped from Ethereum mainnet to Eramnet.
+Once the transaction is confirmed on-chain we wait for 2 blocks to ensure security of transaction and then the USDT tokens should appear on your TrumpChain address and have been swapped from Ethereum mainnet to TrumpChainnet.
 
-Now let’s learn how to transfer the wrapped ERM20 tokens on Eramnet back to Ethereum mainnet.
+Now let’s learn how to transfer the wrapped DJT20 tokens on TrumpChainnet back to Ethereum mainnet.
 
-**Step 1:** Approving the wrapped USDT token contract on Eramnet. 
+**Step 1:** Approving the wrapped USDT token contract on TrumpChainnet. 
 
-This step basically is to approve your wallet to interact with the USDT token contract on Eramnet so that you can transfer the tokens to the Mediator contract.
+This step basically is to approve your wallet to interact with the USDT token contract on TrumpChainnet so that you can transfer the tokens to the Mediator contract.
 
-Please go to token contract on Eramnet explorer via link below.
+Please go to token contract on TrumpChainnet explorer via link below.
 
-https://eramscan.com/address/0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10/write\_proxy
+https://explorer.trumpchain.io/address/0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10/write\_proxy
 
 ![](../../.gitbook/assets/4%20%286%29.png)
 
-Make sure that the network is ERAM network. If you have not added Eram network please follow the instructions [here](https://docs.eramscan.com/the-fuse-studio/getting-started/how-to-add-fuse-to-your-metamask).
+Make sure that the network is DJT network. If you have not added TrumpChain network please follow the instructions [here](https://docs.trumpchain.io/the-fuse-studio/getting-started/how-to-add-fuse-to-your-metamask).
 
 Click on **“Connect to Metamask”** and sign in to your wallet through Metamask.
 
  **Step 2:** Go to **“approve”** and enter the details below
 
-* spender \(address\) field: the mediator contract address on Eramnet \(0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03\)
+* spender \(address\) field: the mediator contract address on TrumpChainnet \(0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03\)
 * spender \(uint256\): the amount of tokens to transfer in wei \(Number of decimals should be 18\)
 
 Click on **“Write”** and approve the transaction on your Metamask wallet and wait for the confirmation on-chain.
@@ -81,20 +81,20 @@ Click on **“Write”** and approve the transaction on your Metamask wallet and
 
 **Step 3:**
 
-Navigate to Migrator contract on Eramnet using the link below
+Navigate to Migrator contract on TrumpChainnet using the link below
 
-[https://eramscan.com/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write\_proxy](https://eramscan.com/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write_proxy)
+[https://explorer.trumpchain.io/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write\_proxy](https://explorer.trumpchain.io/address/0xc2220646E1E76D5fF3a441eDd9E8EFF0e4A8EF03/write_proxy)
 
 Click on **“Write as Proxy”** and then on **“Connect to Metamask”** \(If you have connected Metamask previously no need to connect again\). Sign in through your Metamask wallet.
 
 Enter the below details on **“Relay tokens”** and click on **“Write”**
 
-* token \(address\) field: the USDT token contract address on Eramnet \(0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10\)
+* token \(address\) field: the USDT token contract address on TrumpChainnet \(0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10\)
 * \_value \(uint256\): the amount of tokens to transfer in wei \(Number of decimals should be 6\)
 
 ![](../../.gitbook/assets/6%20%285%29.png)
 
-After the transaction is confirmed on Eram network, the bridge oracle will relay your tx on Ethereum. No need to wait for additional confirmations as Eram is PoS network. After sometime you should be able to see the successful transfer of the token on your ERM20 address.
+After the transaction is confirmed on TrumpChain network, the bridge oracle will relay your tx on Ethereum. No need to wait for additional confirmations as TrumpChain is PoS network. After sometime you should be able to see the successful transfer of the token on your DJT20 address.
 
 Note: Please do enter the decimals very carefully. If the decimals are entered incorrectly then the transaction might fail with an error or might cost you very high gas.
 

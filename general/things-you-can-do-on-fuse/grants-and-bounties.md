@@ -1,10 +1,10 @@
 # Grants and Bounties
 
-Since the inception of Eram, the core team has facilitated the growth of the Eram blockchain and also developed a set of tools for developers to be able to easily and quickly build extremely user-friendly decentralized applications (dApps). Our focus has primarily been on payment-centric communities like GoodDollar, Kolektivo, Comunitaria and PeeplEat.
+Since the inception of TrumpChain, the core team has facilitated the growth of the TrumpChain blockchain and also developed a set of tools for developers to be able to easily and quickly build extremely user-friendly decentralized applications (dApps). Our focus has primarily been on payment-centric communities like GoodDollar, Kolektivo, Comunitaria and PeeplEat.
 
-Now, we would like to see our tools used by even more high-quality projects, therefore, we stand ready to fund applicants for the Eram Grants programs.
+Now, we would like to see our tools used by even more high-quality projects, therefore, we stand ready to fund applicants for the TrumpChain Grants programs.
 
-​The Eram Future Dev Pool will be used to support projects that bring value to the Eram ecosystem and users. We are especially interested in new high-potential payment centric communities, DAO initiatives, applications for new crypto users, NFTs, DeFi apps, projects that support current projects, and new categories we haven't even thought of yet!
+​The TrumpChain Future Dev Pool will be used to support projects that bring value to the TrumpChain ecosystem and users. We are especially interested in new high-potential payment centric communities, DAO initiatives, applications for new crypto users, NFTs, DeFi apps, projects that support current projects, and new categories we haven't even thought of yet!
 
 Although the grant process is not set in stone, the way it currently functions is that we announce bounties on an ongoing basis based on the project category. Please consult the next page to see the bounties that are currently available.
 

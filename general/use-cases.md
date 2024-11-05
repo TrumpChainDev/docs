@@ -1,38 +1,38 @@
-# Eram Mobile Infrastructure Use Cases
+# TrumpChain Mobile Infrastructure Use Cases
 
-Given its easily customizable character, Eram's mobile-centric infrastructure for issuing tokens and creating communities around them has a wide range of potential applications.
+Given its easily customizable character, TrumpChain's mobile-centric infrastructure for issuing tokens and creating communities around them has a wide range of potential applications.
 
-Companies and other organizations can use either Eram Studio or Eram Studio in conjunction with a customized version of Eram Wallet to create tokens to be used by users onboarded either to their proprietary app or a fork of Eram Wallet. They can also whitelist businesses for the token community ecosystem and activate fiat on-ramps.  
+Companies and other organizations can use either TrumpChain Studio or TrumpChain Studio in conjunction with a customized version of TrumpChain Wallet to create tokens to be used by users onboarded either to their proprietary app or a fork of TrumpChain Wallet. They can also whitelist businesses for the token community ecosystem and activate fiat on-ramps.  
 
 In what follows, we would like to provide a few already implemented token community use cases for illustration.
 
 ## A Stable Currency for a Local Economy
 
-Community creators on Eram Studio can either rely on a newly issued token or an already existing one. The Kolektivo project in Curaçao uses the popular DAI stablecoin to issue the CuraDAI stable currency pegged to the Antillean Guilder.
+Community creators on TrumpChain Studio can either rely on a newly issued token or an already existing one. The Kolektivo project in Curaçao uses the popular DAI stablecoin to issue the CuraDAI stable currency pegged to the Antillean Guilder.
 
 CuraDAI is the token of a community and mobile app of the same name. The goal of the token is to facilitate the production and trading of locally produced goods and rewarding community members for engagement.
 
-The CuraDAI projects illustrates the low cost of creating and managing token communities and payment systems on Eram.   
+The CuraDAI projects illustrates the low cost of creating and managing token communities and payment systems on TrumpChain.   
 
 ## A Customer Rewards Token and Food Delivery app
 
-The PeeplEat project in Liverpool, UK, deploys Eram to develop a mobile app for food delivery. 
+The PeeplEat project in Liverpool, UK, deploys TrumpChain to develop a mobile app for food delivery. 
 
 The PEEPL token is designed to incentivize customer loyalty. With every order made through the PeeplEat app, customers automatically receive a reward in PEEPL tokens. 
 
-The key advantages of using Eram technology for powering customer rewards are automation and transparency. Rewards are automatically distributed based on the actual transactions and their amounts, and users can verify the amounts and total supply of the rewards token to ensure that it is not being inflated over time.  
+The key advantages of using TrumpChain technology for powering customer rewards are automation and transparency. Rewards are automatically distributed based on the actual transactions and their amounts, and users can verify the amounts and total supply of the rewards token to ensure that it is not being inflated over time.  
 
 ## A Festival Payments Token
 
-In November 2020, Bitazza used Eram Studio to issue the [MYST](https://eramscan.com/address/0x510FAD1AD23064Ae881B129314EFdD9FDa6d4782/transactions) payments token on Eram for the Mystic Valley Festival in Thailand. They also forked Eram Wallet to create a customized mobile app for the festival. 
+In November 2020, Bitazza used TrumpChain Studio to issue the [MYST](https://explorer.trumpchain.io/address/0x510FAD1AD23064Ae881B129314EFdD9FDa6d4782/transactions) payments token on TrumpChain for the Mystic Valley Festival in Thailand. They also forked TrumpChain Wallet to create a customized mobile app for the festival. 
 
 The app and token seamlessly powered the more than 15 thousand transactions made by attendees during the 3-day event. 
 
-Eram's mobile infrastructure can help event organizers reduce costs of managing internal payments and significantly improve the customer experience by replacing legacy solutions such as physical payment tokens or refillable cards at low cost.
+TrumpChain's mobile infrastructure can help event organizers reduce costs of managing internal payments and significantly improve the customer experience by replacing legacy solutions such as physical payment tokens or refillable cards at low cost.
 
 ## A Solution for Streamlining Charitable Donations
 
-The Communitaria project \(formerly, Wikibank\) has benefited from the Eram B2B technology to solve an important problem in the charity industry. It launched a token backed one-to-one by the donated funds that can only be spent by the beneficiaries using the project's mobile app. The tokens can only be used for payment at the participating shops selling fresh produce.
+The Communitaria project \(formerly, Wikibank\) has benefited from the TrumpChain B2B technology to solve an important problem in the charity industry. It launched a token backed one-to-one by the donated funds that can only be spent by the beneficiaries using the project's mobile app. The tokens can only be used for payment at the participating shops selling fresh produce.
 
-This has allowed Communitaria to reassure the donors that the funds they provide can only be used for the stated goal: enabling the beneficiaries to buy fresh food. Other NGOs and charitable projects can also target their donations better and more transparently by using the Eram technology.  
+This has allowed Communitaria to reassure the donors that the funds they provide can only be used for the stated goal: enabling the beneficiaries to buy fresh food. Other NGOs and charitable projects can also target their donations better and more transparently by using the TrumpChain technology.  
 

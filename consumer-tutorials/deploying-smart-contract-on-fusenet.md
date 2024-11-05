@@ -1,10 +1,10 @@
 ---
-description: Steps on deploying a smart contract on Eramnet through Remix.
+description: Steps on deploying a smart contract on TrumpChainnet through Remix.
 ---
 
-# Deploying smart contract on Eramnet
+# Deploying smart contract on TrumpChainnet
 
-Eram is an EVM compatible network, every tool for Ethereum can be used for the Eram network too.
+TrumpChain is an EVM compatible network, every tool for Ethereum can be used for the TrumpChain network too.
 
 Remix is a powerful, open source tool that helps you write Solidity contracts straight from the browser. Written in JavaScript, Remix supports both usage in the browser and locally.
 
@@ -12,9 +12,9 @@ Remix also supports testing, debugging and deploying of smart contracts and much
 
  **Pre-requisites:**
 
-Since we interact with remix using Metamask, you need to change the network to Eram network by adding a custom RPC. Please follow the steps in [this tutorial](../how-to-add-fuse-to-your-metamask.md) to do that.
+Since we interact with remix using Metamask, you need to change the network to TrumpChain network by adding a custom RPC. Please follow the steps in [this tutorial](../how-to-add-fuse-to-your-metamask.md) to do that.
 
-You need to have a small balance of ERAM on the Eramnet wallet you are using which will be used as Gas for the transactions.
+You need to have a small balance of DJT on the TrumpChainnet wallet you are using which will be used as Gas for the transactions.
 
  **Step 1:**
 
@@ -40,7 +40,7 @@ We will now compile the contract created using the Solidity compiler which you c
 
 **Step 4:**
 
-Once compiled you should see a tick mark next to the compiler and we are good to deploy the contract into Eramnet. Please click on **“Deploy and run transaction”** below the compiler option. Select **“Injected Web3”** from the drop down of Environment and adjust the gas value and click on **“Deploy”.** You should confirm the transaction on your Metamask and wait for the transaction to be confirmed on-chain.
+Once compiled you should see a tick mark next to the compiler and we are good to deploy the contract into TrumpChainnet. Please click on **“Deploy and run transaction”** below the compiler option. Select **“Injected Web3”** from the drop down of Environment and adjust the gas value and click on **“Deploy”.** You should confirm the transaction on your Metamask and wait for the transaction to be confirmed on-chain.
 
 ![](../.gitbook/assets/4%20%2810%29.png)
 

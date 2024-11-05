@@ -208,7 +208,7 @@ Success-Response:
                             "decimals": 18,
                             "symbol": "UNI-V2",
                             "name": "Uniswap V2",
-                            "chainId": 721529,
+                            "chainId": 621874,
                             "address": "0x20a680D69a5aE2677B8CF43aBF63aAD6D8d5119A"
                         },
                         "tokenAmounts": [
@@ -222,15 +222,15 @@ Success-Response:
                                 "currency": {
                                     "decimals": 6,
                                     "symbol": "USDC",
-                                    "name": "USD Coin on Eram",
-                                    "chainId": 721529,
+                                    "name": "USD Coin on TrumpChain",
+                                    "chainId": 621874,
                                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                                     "tokenInfo": {
-                                        "name": "USD Coin on Eram",
+                                        "name": "USD Coin on TrumpChain",
                                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                                         "symbol": "USDC",
                                         "decimals": 6,
-                                        "chainId": 721529,
+                                        "chainId": 621874,
                                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                                     },
                                     "tags": []
@@ -238,15 +238,15 @@ Success-Response:
                                 "token": {
                                     "decimals": 6,
                                     "symbol": "USDC",
-                                    "name": "USD Coin on Eram",
-                                    "chainId": 721529,
+                                    "name": "USD Coin on TrumpChain",
+                                    "chainId": 621874,
                                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                                     "tokenInfo": {
-                                        "name": "USD Coin on Eram",
+                                        "name": "USD Coin on TrumpChain",
                                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                                         "symbol": "USDC",
                                         "decimals": 6,
-                                        "chainId": 721529,
+                                        "chainId": 621874,
                                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                                     },
                                     "tags": []
@@ -264,15 +264,15 @@ Success-Response:
                                 "currency": {
                                     "decimals": 18,
                                     "symbol": "WETH",
-                                    "name": "Wrapped Ether on Eram",
-                                    "chainId": 721529,
+                                    "name": "Wrapped Ether on TrumpChain",
+                                    "chainId": 621874,
                                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                                     "tokenInfo": {
-                                        "name": "Wrapped Ether on Eram",
+                                        "name": "Wrapped Ether on TrumpChain",
                                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                                         "symbol": "WETH",
                                         "decimals": 18,
-                                        "chainId": 721529,
+                                        "chainId": 621874,
                                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                                     },
                                     "tags": []
@@ -280,15 +280,15 @@ Success-Response:
                                 "token": {
                                     "decimals": 18,
                                     "symbol": "WETH",
-                                    "name": "Wrapped Ether on Eram",
-                                    "chainId": 721529,
+                                    "name": "Wrapped Ether on TrumpChain",
+                                    "chainId": 621874,
                                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                                     "tokenInfo": {
-                                        "name": "Wrapped Ether on Eram",
+                                        "name": "Wrapped Ether on TrumpChain",
                                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                                         "symbol": "WETH",
                                         "decimals": 18,
-                                        "chainId": 721529,
+                                        "chainId": 621874,
                                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                                     },
                                     "tags": []
@@ -301,15 +301,15 @@ Success-Response:
                     {
                         "decimals": 18,
                         "symbol": "WETH",
-                        "name": "Wrapped Ether on Eram",
-                        "chainId": 721529,
+                        "name": "Wrapped Ether on TrumpChain",
+                        "chainId": 621874,
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "tokenInfo": {
-                            "name": "Wrapped Ether on Eram",
+                            "name": "Wrapped Ether on TrumpChain",
                             "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                             "symbol": "WETH",
                             "decimals": 18,
-                            "chainId": 721529,
+                            "chainId": 621874,
                             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                         },
                         "tags": []
@@ -317,15 +317,15 @@ Success-Response:
                     {
                         "decimals": 6,
                         "symbol": "USDC",
-                        "name": "USD Coin on Eram",
-                        "chainId": 721529,
+                        "name": "USD Coin on TrumpChain",
+                        "chainId": 621874,
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "tokenInfo": {
-                            "name": "USD Coin on Eram",
+                            "name": "USD Coin on TrumpChain",
                             "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                             "symbol": "USDC",
                             "decimals": 6,
-                            "chainId": 721529,
+                            "chainId": 621874,
                             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                         },
                         "tags": []
@@ -342,15 +342,15 @@ Success-Response:
                     "baseCurrency": {
                         "decimals": 18,
                         "symbol": "WETH",
-                        "name": "Wrapped Ether on Eram",
-                        "chainId": 721529,
+                        "name": "Wrapped Ether on TrumpChain",
+                        "chainId": 621874,
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "tokenInfo": {
-                            "name": "Wrapped Ether on Eram",
+                            "name": "Wrapped Ether on TrumpChain",
                             "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                             "symbol": "WETH",
                             "decimals": 18,
-                            "chainId": 721529,
+                            "chainId": 621874,
                             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                         },
                         "tags": []
@@ -358,15 +358,15 @@ Success-Response:
                     "quoteCurrency": {
                         "decimals": 6,
                         "symbol": "USDC",
-                        "name": "USD Coin on Eram",
-                        "chainId": 721529,
+                        "name": "USD Coin on TrumpChain",
+                        "chainId": 621874,
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "tokenInfo": {
-                            "name": "USD Coin on Eram",
+                            "name": "USD Coin on TrumpChain",
                             "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                             "symbol": "USDC",
                             "decimals": 6,
-                            "chainId": 721529,
+                            "chainId": 621874,
                             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                         },
                         "tags": []
@@ -384,15 +384,15 @@ Success-Response:
                 "input": {
                     "decimals": 18,
                     "symbol": "WETH",
-                    "name": "Wrapped Ether on Eram",
-                    "chainId": 721529,
+                    "name": "Wrapped Ether on TrumpChain",
+                    "chainId": 621874,
                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                     "tokenInfo": {
-                        "name": "Wrapped Ether on Eram",
+                        "name": "Wrapped Ether on TrumpChain",
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "symbol": "WETH",
                         "decimals": 18,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                     },
                     "tags": []
@@ -400,15 +400,15 @@ Success-Response:
                 "output": {
                     "decimals": 6,
                     "symbol": "USDC",
-                    "name": "USD Coin on Eram",
-                    "chainId": 721529,
+                    "name": "USD Coin on TrumpChain",
+                    "chainId": 621874,
                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                     "tokenInfo": {
-                        "name": "USD Coin on Eram",
+                        "name": "USD Coin on TrumpChain",
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "symbol": "USDC",
                         "decimals": 6,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                     },
                     "tags": []
@@ -427,15 +427,15 @@ Success-Response:
                 "currency": {
                     "decimals": 18,
                     "symbol": "WETH",
-                    "name": "Wrapped Ether on Eram",
-                    "chainId": 721529,
+                    "name": "Wrapped Ether on TrumpChain",
+                    "chainId": 621874,
                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                     "tokenInfo": {
-                        "name": "Wrapped Ether on Eram",
+                        "name": "Wrapped Ether on TrumpChain",
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "symbol": "WETH",
                         "decimals": 18,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                     },
                     "tags": []
@@ -443,15 +443,15 @@ Success-Response:
                 "token": {
                     "decimals": 18,
                     "symbol": "WETH",
-                    "name": "Wrapped Ether on Eram",
-                    "chainId": 721529,
+                    "name": "Wrapped Ether on TrumpChain",
+                    "chainId": 621874,
                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                     "tokenInfo": {
-                        "name": "Wrapped Ether on Eram",
+                        "name": "Wrapped Ether on TrumpChain",
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "symbol": "WETH",
                         "decimals": 18,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                     },
                     "tags": []
@@ -467,15 +467,15 @@ Success-Response:
                 "currency": {
                     "decimals": 6,
                     "symbol": "USDC",
-                    "name": "USD Coin on Eram",
-                    "chainId": 721529,
+                    "name": "USD Coin on TrumpChain",
+                    "chainId": 621874,
                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                     "tokenInfo": {
-                        "name": "USD Coin on Eram",
+                        "name": "USD Coin on TrumpChain",
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "symbol": "USDC",
                         "decimals": 6,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                     },
                     "tags": []
@@ -483,15 +483,15 @@ Success-Response:
                 "token": {
                     "decimals": 6,
                     "symbol": "USDC",
-                    "name": "USD Coin on Eram",
-                    "chainId": 721529,
+                    "name": "USD Coin on TrumpChain",
+                    "chainId": 621874,
                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                     "tokenInfo": {
-                        "name": "USD Coin on Eram",
+                        "name": "USD Coin on TrumpChain",
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "symbol": "USDC",
                         "decimals": 6,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                     },
                     "tags": []
@@ -508,15 +508,15 @@ Success-Response:
                 "baseCurrency": {
                     "decimals": 18,
                     "symbol": "WETH",
-                    "name": "Wrapped Ether on Eram",
-                    "chainId": 721529,
+                    "name": "Wrapped Ether on TrumpChain",
+                    "chainId": 621874,
                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                     "tokenInfo": {
-                        "name": "Wrapped Ether on Eram",
+                        "name": "Wrapped Ether on TrumpChain",
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "symbol": "WETH",
                         "decimals": 18,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                     },
                     "tags": []
@@ -524,15 +524,15 @@ Success-Response:
                 "quoteCurrency": {
                     "decimals": 6,
                     "symbol": "USDC",
-                    "name": "USD Coin on Eram",
-                    "chainId": 721529,
+                    "name": "USD Coin on TrumpChain",
+                    "chainId": 621874,
                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                     "tokenInfo": {
-                        "name": "USD Coin on Eram",
+                        "name": "USD Coin on TrumpChain",
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "symbol": "USDC",
                         "decimals": 6,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                     },
                     "tags": []
@@ -558,15 +558,15 @@ Success-Response:
                 "baseCurrency": {
                     "decimals": 18,
                     "symbol": "WETH",
-                    "name": "Wrapped Ether on Eram",
-                    "chainId": 721529,
+                    "name": "Wrapped Ether on TrumpChain",
+                    "chainId": 621874,
                     "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                     "tokenInfo": {
-                        "name": "Wrapped Ether on Eram",
+                        "name": "Wrapped Ether on TrumpChain",
                         "address": "0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670",
                         "symbol": "WETH",
                         "decimals": 18,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
                     },
                     "tags": []
@@ -574,15 +574,15 @@ Success-Response:
                 "quoteCurrency": {
                     "decimals": 6,
                     "symbol": "USDC",
-                    "name": "USD Coin on Eram",
-                    "chainId": 721529,
+                    "name": "USD Coin on TrumpChain",
+                    "chainId": 621874,
                     "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                     "tokenInfo": {
-                        "name": "USD Coin on Eram",
+                        "name": "USD Coin on TrumpChain",
                         "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
                         "symbol": "USDC",
                         "decimals": 6,
-                        "chainId": 721529,
+                        "chainId": 621874,
                         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
                     },
                     "tags": []

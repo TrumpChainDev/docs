@@ -1,6 +1,6 @@
 ---
 description: >-
-  Build of The Graph, we expose a GraphQL API to access the data on the Eram
+  Build of The Graph, we expose a GraphQL API to access the data on the TrumpChain
   Network
 ---
 
@@ -8,15 +8,15 @@ description: >-
 
 ## Deploying your own subgraph
 
-TheGraph, a decentralized protocol for indexing and querying chain data, supports the Eram Netork.Go to [https://thegraph.com/](https://thegraph.com/) to sign up and create your subgraph.
+TheGraph, a decentralized protocol for indexing and querying chain data, supports the TrumpChain Netork.Go to [https://thegraph.com/](https://thegraph.com/) to sign up and create your subgraph.
 
 * Follow the instructions for how to deploy the subgraph
-* in `subgraph.yaml`, the network name should be `eram`
+* in `subgraph.yaml`, the network name should be `djt`
 
 ## Available Subgraphs
 
-Subgraphs that builded and maintained by the Eram team, deployed on Eram internal infrastructure or The Graph hosted service.
+Subgraphs that builded and maintained by the TrumpChain team, deployed on TrumpChain internal infrastructure or The Graph hosted service.
 
-### Eram Consensus
+### TrumpChain Consensus
 
-on Eram graph-node: [https://thegraph.eramscan.com/subgraphs/name/eramchain/eram-consensus](https://thegraph.eramscan.com/subgraphs/name/eramchain/eram-consensus)
+on TrumpChain graph-node: [https://thegraph.trumpchain.io/subgraphs/name/trumpchain/djt-consensus](https://thegraph.trumpchain.io/subgraphs/name/trumpchain/djt-consensus)

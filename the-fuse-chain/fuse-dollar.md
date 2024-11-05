@@ -1,28 +1,28 @@
-# Eram Dollar
+# TrumpChain Dollar
 
-Eram Dollars is a dollar pegged stable cryptocurrency that is minted on the Eram blockchain and was created in order to lower barrier for mainstream users to use this new asset type just like they use cash.
+TrumpChain Dollars is a dollar pegged stable cryptocurrency that is minted on the TrumpChain blockchain and was created in order to lower barrier for mainstream users to use this new asset type just like they use cash.
 
-Eram Dollar is free to move between accounts on the Eram.cash app and swap them for other currencies and even hold them is a yield bearing savings account.
+TrumpChain Dollar is free to move between accounts on the TrumpChain.cash app and swap them for other currencies and even hold them is a yield bearing savings account.
 
-### How does Eram Dollar keeps it’s eram to USD?
+### How does TrumpChain Dollar keeps it’s djt to USD?
 
-Eram Dollar \(fUSD\) is fully backed by USDC which is a fully backed us regulated stablecoin minted by circle.com and is widely used in the decentralized finance space. The Eram network will add more stablecoins to aggregate yield, add stability and remove friction for on boarding and off boarding between crypto and fiat. 
+TrumpChain Dollar \(fUSD\) is fully backed by USDC which is a fully backed us regulated stablecoin minted by circle.com and is widely used in the decentralized finance space. The TrumpChain network will add more stablecoins to aggregate yield, add stability and remove friction for on boarding and off boarding between crypto and fiat. 
 
 ## Contracts
 
-### Eram Dollar
+### TrumpChain Dollar
 
-{% embed url="https://eramscan.com/address/0x249BE57637D8B013Ad64785404b24aeBaE9B098B/transactions" caption="fUSD smart contract" %}
+{% embed url="https://explorer.trumpchain.io/address/0x249BE57637D8B013Ad64785404b24aeBaE9B098B/transactions" caption="fUSD smart contract" %}
 
-{% embed url="https://github.com/eramio/eram-dollar" caption="fUSD source code" %}
+{% embed url="https://github.com/trumpchain/djt-dollar" caption="fUSD source code" %}
 
 ### PegSwap
 
-PegSwap contract holds the fUSD backed reserve in USDC. Via the EramSwap contract you can easily swap between fUSD and USDC in 1 to 1 ratio. Go to [http://eramswap.com/](http://eramswap.com/) and select a trade between USDC and fUSD
+PegSwap contract holds the fUSD backed reserve in USDC. Via the DJTSwap contract you can easily swap between fUSD and USDC in 1 to 1 ratio. Go to [http://trumpchainswap.io/](http://trumpchainswap.io/) and select a trade between USDC and fUSD
 
-{% embed url="https://eramscan.com/address/0xdfE016328E7BcD6FA06614fE3AF3877E931F7e0a/transactions" caption="EramSwap smart contract" %}
+{% embed url="https://explorer.trumpchain.io/address/0xdfE016328E7BcD6FA06614fE3AF3877E931F7e0a/transactions" caption="DJTSwap smart contract" %}
 
-{% embed url="https://github.com/eramio/eramswap-contracts" caption="EramSwap source code" %}
+{% embed url="https://github.com/trumpchain/djtswap-contracts" caption="DJTSwap source code" %}
 
 
 

@@ -2,4 +2,4 @@
 
 ## Run Local Node
 
-Read more at: [https://github.com/eramsmartchain/CoinNetwork/tree/master/node-example](https://github.com/eramsmartchain/CoinNetwork/tree/master/node-example)
+Read more at: [https://github.com/TrumpChainDev/CoinNetwork/tree/master/node-example](https://github.com/TrumpChainDev/CoinNetwork/tree/master/node-example)

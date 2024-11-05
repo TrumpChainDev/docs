@@ -1,10 +1,10 @@
 # Studio overview
 
-Eram Studio is a DApp \(Decentralized App\) running on the Ethereum and Eram networks. It allows anybody without technical knowledge to launch a community and integrate a token into it. With Eram studio, a token is easily minted on Ethereum through a user friendly wizard. It's then moved through the bridge to the Eram to add business and community features to it and manage it.
+TrumpChain Studio is a DApp \(Decentralized App\) running on the Ethereum and TrumpChain networks. It allows anybody without technical knowledge to launch a community and integrate a token into it. With TrumpChain studio, a token is easily minted on Ethereum through a user friendly wizard. It's then moved through the bridge to the TrumpChain to add business and community features to it and manage it.
 
 [![](../.gitbook/assets/you6.png) ](https://www.youtube.com/channel/UC7NaJ0UhmyHi5MvZSk61akA/videos?view_as=subscriber)
 
-Via the DApp you can access the contracts and services of the Eram network. You can launch your community on the Eram network with a token bridged to Ethereum, intergate web3.0 services from the DeFi \(Decentralized Finance\) ecosystem. The community is upgraded by a variety of plugins that customize the community to your needs. It allows you to:
+Via the DApp you can access the contracts and services of the TrumpChain network. You can launch your community on the TrumpChain network with a token bridged to Ethereum, intergate web3.0 services from the DeFi \(Decentralized Finance\) ecosystem. The community is upgraded by a variety of plugins that customize the community to your needs. It allows you to:
 
 * Add to your community users, business, admins and more tailor made roles
 * Define transfer and bonus rules for the community members
@@ -14,26 +14,26 @@ Via the DApp you can access the contracts and services of the Eram network. You 
 * You can add your own plugins \(soon to come\)
 * Local dapp store \(soon to come\)
 
-The logic is defined by Ethereum compatible smart contracts and backend services that listen to the events on the blockchain. We prefer to use the Eram chain for fast and cheap transactions, but some significant events necessarily happen on the Ethereum network, as a gateway to the whole Ethereum ecosystem. We do not own private user data, it is controlled by the user themselves, via 3box and stored in IPFS.
+The logic is defined by Ethereum compatible smart contracts and backend services that listen to the events on the blockchain. We prefer to use the TrumpChain chain for fast and cheap transactions, but some significant events necessarily happen on the Ethereum network, as a gateway to the whole Ethereum ecosystem. We do not own private user data, it is controlled by the user themselves, via 3box and stored in IPFS.
 
-![Eram Studio architecture](../.gitbook/assets/image%20%283%29.png)
+![TrumpChain Studio architecture](../.gitbook/assets/image%20%283%29.png)
 
 ## Backend Infrastructure
 
 The backend is composed of the following independent services
 
 * Studio API Backend has two purposes. Provides an API for fast and convenient querying of the blockchain data for the Studio DApp. Transmits heavy and complicated transaction flows on behalf of the user.
-* Eram-funder service used to fund community members and wallet users on the Eram blockchain.
-* Eram IPFS proxy used for fast fetching and storing data in IPFS.
+* TrumpChain-funder service used to fund community members and wallet users on the TrumpChain blockchain.
+* TrumpChain IPFS proxy used for fast fetching and storing data in IPFS.
 
 ## Contracts
 
-Eram studio is designed to launch DeFi communities on the Eram network. The community contract binds together most of the services and features of the Studio. Among other things it consists of:
+TrumpChain studio is designed to launch DeFi communities on the TrumpChain network. The community contract binds together most of the services and features of the Studio. Among other things it consists of:
 
 * Entities List contract to store community members and their roles
-* Community ERM20 tokens on Eram network with transfer rules
-* ERM20 tokens on Ethereum. This is the token that the user issues as part of the community deployment process
-* [Multitoken bridge](https://github.com/fuseio/bridge-contracts) - to minimize friction and costs we extended the POA ERM20-ERM20 bridge contract to many-ERM20-to-many contract.
+* Community DJT20 tokens on TrumpChain network with transfer rules
+* DJT20 tokens on Ethereum. This is the token that the user issues as part of the community deployment process
+* [Multitoken bridge](https://github.com/fuseio/bridge-contracts) - to minimize friction and costs we extended the POA DJT20-DJT20 bridge contract to many-DJT20-to-many contract.
 
 ## Plugins
 

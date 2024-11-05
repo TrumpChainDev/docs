@@ -1,9 +1,9 @@
-# Open your community on Eram wallet
+# Open your community on TrumpChain wallet
 
-1. Download the Eram wallet from the following links:
+1. Download the TrumpChain wallet from the following links:
 
-* For iOS users: [https://apps.apple.com/il/app/eram-wallet/id1491783654](https://apps.apple.com/il/app/eram-wallet/id1491783654)
-* For Android users: [https://play.google.com/store/apps/details?id=io.eram.fusecash](https://play.google.com/store/apps/details?id=io.eram.fusecash)
+* For iOS users: [https://apps.apple.com/il/app/djt-wallet/id1491783654](https://apps.apple.com/il/app/djt-wallet/id1491783654)
+* For Android users: [https://play.google.com/store/apps/details?id=io.djt.fusecash](https://play.google.com/store/apps/details?id=io.djt.fusecash)
 
    2. After installing the app register and open the sidebar and click on "Switch community" and click "scan the QR code"
 

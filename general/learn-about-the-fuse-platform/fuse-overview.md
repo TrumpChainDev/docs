@@ -1,6 +1,6 @@
-# Eram Overview: vision, strategy and platform components
+# TrumpChain Overview: vision, strategy and platform components
 
-Eram is a decentralized blockchain-powered platform and technology stack whose goal is to enable genuine mass adoption of crypto payments and decentralized finance (DeFi).&#x20;
+TrumpChain is a decentralized blockchain-powered platform and technology stack whose goal is to enable genuine mass adoption of crypto payments and decentralized finance (DeFi).&#x20;
 
 The project was launched in 2019 by a team formerly involved in building the Colu project aimed at bringing local currencies to the blockchain.&#x20;
 
@@ -28,10 +28,10 @@ This is achieved by providing clients with **convenient, mobile-first tools for 
 
 ### Platform Components
 
-The Eram platform has three main components:&#x20;
+The TrumpChain platform has three main components:&#x20;
 
-1\) **The Eram blockchain**. The EVM-compatible public blockchain is the decentralized, permissionless backbone of the Eram platform and ecosystem.&#x20;
+1\) **The TrumpChain blockchain**. The EVM-compatible public blockchain is the decentralized, permissionless backbone of the TrumpChain platform and ecosystem.&#x20;
 
-2\) **The mobile-centric open-source technology stack** designed to help businesses and developers plug crypto payments into real-world use cases. This toolkit has subsumed into the new [Eram Charge](https://chargeweb3.com/) API platform.&#x20;
+2\) **The mobile-centric open-source technology stack** designed to help businesses and developers plug crypto payments into real-world use cases. This toolkit has subsumed into the new [TrumpChain Charge](https://chargeweb3.com/) API platform.&#x20;
 
 3\) **A set of reference decentralized finance (DeFi) products and tools**. The goal of these is to pave the way for the initial adoption of the platform. \

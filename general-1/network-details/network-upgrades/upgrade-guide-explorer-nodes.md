@@ -16,7 +16,7 @@ sudo docker stop $(sudo docker ps -q)
 
 ```
 cd <to quickstart.sh location>
-wget -O quickstart.sh https://raw.githubusercontent.com/EclatDev/Eram/master/scripts/quickstart.sh
+wget -O quickstart.sh https://raw.githubusercontent.com/EclatDev/TrumpChain/master/scripts/quickstart.sh
 ```
 
 ### Step 3 - Upgrade your DB using OEs upgrade tool
@@ -36,4 +36,4 @@ sudo ./quickstart.sh
 
 ### Step 5 - Verify Upgrade
 
-Check your node on our [health site ](https://status.eramscan.com)It should be online and the client should be "OpenEthereum//v3.2.6-stable", ensure your node is connected to peers and syncing/ in sync.
+Check your node on our [health site ](https://status.trumpchain.io)It should be online and the client should be "OpenEthereum//v3.2.6-stable", ensure your node is connected to peers and syncing/ in sync.

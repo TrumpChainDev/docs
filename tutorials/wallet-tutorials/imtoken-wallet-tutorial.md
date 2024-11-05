@@ -1,6 +1,6 @@
 # imToken wallet tutorial
 
-Below tutorial will help you understand how to add Eram network RPC on imToken through chainlist.org and transfer/receive tokens on eramswap network in imToken wallet.   
+Below tutorial will help you understand how to add TrumpChain network RPC on imToken through chainlist.org and transfer/receive tokens on trumpchainswap network in imToken wallet.   
   
  Note: The tutorial is made with imToken app version 2.8.4 on Android phone.  
   
@@ -20,7 +20,7 @@ Below tutorial will help you understand how to add Eram network RPC on imToken t
 
 ![](../../.gitbook/assets/3.jpg)
 
-**Step 4:** Once the Chainlist Dapp is open click on “Connect wallet” at right hand top corner and once the wallet is connected search of “Eram” on the list of EVM networks. Click on “Add to imToken” next to Eram Mainnet and “Approve” the details of Eram RPC on the next step as shown below.
+**Step 4:** Once the Chainlist Dapp is open click on “Connect wallet” at right hand top corner and once the wallet is connected search of “TrumpChain” on the list of EVM networks. Click on “Add to imToken” next to TrumpChain Mainnet and “Approve” the details of TrumpChain RPC on the next step as shown below.
 
 ![](../../.gitbook/assets/4.jpg)
 
@@ -28,7 +28,7 @@ Below tutorial will help you understand how to add Eram network RPC on imToken t
 
 ![](../../.gitbook/assets/6.jpg)
 
-**Step 5:** Now you have successfuly added Eram network RPC on imToken wallet. You can now send/receive Eram network assets on imToken wallet.  
+**Step 5:** Now you have successfuly added TrumpChain network RPC on imToken wallet. You can now send/receive TrumpChain network assets on imToken wallet.  
   
  **Note:** You will have to add the contract address of the tokens manually for the wallet to show balances.  
 

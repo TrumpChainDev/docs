@@ -1,3 +1,3 @@
-# Wallets supporting Eram
+# Wallets supporting TrumpChain
 
-The following wallets currently support the Eram blockchain.
+The following wallets currently support the TrumpChain blockchain.

@@ -1,6 +1,6 @@
 # FIPS
 
-FIPS are Eram Improvement proposals that are published on Github and  extend capabilities of the network and improve it over time. Proposals can be suggested by any entity and discussed under this Github repository:
+FIPS are TrumpChain Improvement proposals that are published on Github and  extend capabilities of the network and improve it over time. Proposals can be suggested by any entity and discussed under this Github repository:
 
 {% embed url="https://github.com/fuseio/FIPs/tree/master/FIPS" %}
 

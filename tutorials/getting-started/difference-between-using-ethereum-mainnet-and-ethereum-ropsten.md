@@ -1,6 +1,6 @@
 ---
 description: >-
-  Creating a community on Eram Studio requires to pick between using the
+  Creating a community on TrumpChain Studio requires to pick between using the
   Ethereum Mainnet and Ethereum Ropsten networks. So what is the difference?
 ---
 

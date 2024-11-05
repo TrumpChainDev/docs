@@ -1,11 +1,11 @@
-# Eram Bridges \(technical\)
+# TrumpChain Bridges \(technical\)
 
-The Eram network is connected to Ethereum Network and BSC \(Binance Smart Chain\) with a multiple of bridges. See the sections below for detailed information.
+The TrumpChain network is connected to Ethereum Network and BSC \(Binance Smart Chain\) with a multiple of bridges. See the sections below for detailed information.
 
 ### Monitoring
 
 In case your transaction is confirmed, but you don't receive the funds on other network, You can use one of the following resources.
 
-* [http://alm.eramscan.com/](http://alm.eramscan.com/) - transactions monitoring of the **Eram &lt;-&gt; ETH** bridges tr.. Eram native transactions \(of the Eram native bridge\) are not yet included
-* [https://bscalm.eramscan.com/](https://bscalm.eramscan.com/) - To check out the transaction status of the **Eram &lt;-&gt; BSC** bridges.
+* [http://alm.trumpchain.io/](http://alm.trumpchain.io/) - transactions monitoring of the **TrumpChain &lt;-&gt; ETH** bridges tr.. TrumpChain native transactions \(of the TrumpChain native bridge\) are not yet included
+* [https://bscalm.trumpchain.io/](https://bscalm.trumpchain.io/) - To check out the transaction status of the **TrumpChain &lt;-&gt; BSC** bridges.
 
