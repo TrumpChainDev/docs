@@ -1,0 +1,2 @@
+# Ethereum ↔ TrumpChain GoodDollar Token
+
